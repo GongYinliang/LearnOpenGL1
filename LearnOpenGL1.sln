@@ -5,8 +5,6 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LearnOpenGL1", "builds\LearnOpenGL1\LearnOpenGL1\LearnOpenGL1.vcxproj", "{958746D1-66C9-4B59-A77A-DF422F7A7A82}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderMesh", "RenderMesh\RenderMesh.vcxproj", "{4B084E0E-74A8-4B3D-8AC7-6E14336F444F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,14 +21,6 @@ Global
 		{958746D1-66C9-4B59-A77A-DF422F7A7A82}.Release|x64.Build.0 = Release|x64
 		{958746D1-66C9-4B59-A77A-DF422F7A7A82}.Release|x86.ActiveCfg = Release|Win32
 		{958746D1-66C9-4B59-A77A-DF422F7A7A82}.Release|x86.Build.0 = Release|Win32
-		{4B084E0E-74A8-4B3D-8AC7-6E14336F444F}.Debug|x64.ActiveCfg = Debug|x64
-		{4B084E0E-74A8-4B3D-8AC7-6E14336F444F}.Debug|x64.Build.0 = Debug|x64
-		{4B084E0E-74A8-4B3D-8AC7-6E14336F444F}.Debug|x86.ActiveCfg = Debug|Win32
-		{4B084E0E-74A8-4B3D-8AC7-6E14336F444F}.Debug|x86.Build.0 = Debug|Win32
-		{4B084E0E-74A8-4B3D-8AC7-6E14336F444F}.Release|x64.ActiveCfg = Release|x64
-		{4B084E0E-74A8-4B3D-8AC7-6E14336F444F}.Release|x64.Build.0 = Release|x64
-		{4B084E0E-74A8-4B3D-8AC7-6E14336F444F}.Release|x86.ActiveCfg = Release|Win32
-		{4B084E0E-74A8-4B3D-8AC7-6E14336F444F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
