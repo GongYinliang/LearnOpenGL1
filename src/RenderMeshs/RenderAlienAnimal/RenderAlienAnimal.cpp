@@ -49,7 +49,7 @@ int main()
 
     // glfw window creation
     // --------------------
-    std::string windowTitle = "尘海折柳:【菜鸟驿站:LearnOpenGL提高—LearnOpenGL1】";
+    std::string windowTitle = "尘海折柳:【菜鸟驿站:LearnOpenGL提高—RenderAlienAnimal】";
     GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, windowTitle.c_str(), NULL, NULL);
     if (window == NULL)
     {

@@ -19,7 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\LibShared\glad\src\glad.c" />
     <ClCompile Include="..\..\..\src\DepthTesting\DepthTesting\DepthTesting.cpp" />
+    <ClCompile Include="..\..\..\src\DepthTesting\DepthTesting\Mesh.cpp" />
+    <ClCompile Include="..\..\..\src\DepthTesting\DepthTesting\Model.cpp" />
+    <ClCompile Include="..\..\..\src\DepthTesting\DepthTesting\Shader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\DepthTesting\DepthTesting\Camera.h" />
+    <ClInclude Include="..\..\..\include\DepthTesting\DepthTesting\Mesh.h" />
+    <ClInclude Include="..\..\..\include\DepthTesting\DepthTesting\Model.h" />
+    <ClInclude Include="..\..\..\include\DepthTesting\DepthTesting\Shader.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -81,7 +91,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;STB_IMAGE_IMPLEMENTATION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\..\..\LibShared\glad\include;..\..\..\LibShared\glfw\include;..\..\..\include;..\..\..\LibShared\stb;..\..\..\LibShared;..\..\..\LibShared\assimp\include</AdditionalIncludeDirectories>
     </ClCompile>
@@ -90,6 +100,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\..\..\LibShared\glfw\lib;..\..\..\LibShared\assimp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>glfw3.lib;opengl32.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/force:multiple %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
