@@ -86,7 +86,7 @@ int main()
 
     // load models
     // -----------
-    Model ourModel((char*)"../../../models/nanosuit.obj");
+    Model ourModel((char*)"../../../models/nanosuit/nanosuit.obj");
 
     // draw in wireframe
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);

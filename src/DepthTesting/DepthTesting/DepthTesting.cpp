@@ -79,11 +79,11 @@ int main()
     glDepthFunc(GL_LESS);
     // build and compile shaders
     // -------------------------
-    //Shader shader("../../../shaders/DepthTesting/DepthTesting/depthTesting.vs", "../../../shaders/DepthTesting/DepthTesting/depthTesting.fs");
+    Shader shader("../../../shaders/DepthTesting/DepthTesting/depthTesting.vs", "../../../shaders/DepthTesting/DepthTesting/depthTesting.fs");
     //深度可视化
     //Shader shader("../../../shaders/DepthTesting/DepthTesting/depthTesting.vs", "../../../shaders/DepthTesting/DepthTesting/depthVisualization.fs");
     //线性深度可视化
-    Shader shader("../../../shaders/DepthTesting/DepthTesting/depthTesting.vs", "../../../shaders/DepthTesting/DepthTesting/LinearizeDepth.fs");
+    //Shader shader("../../../shaders/DepthTesting/DepthTesting/depthTesting.vs", "../../../shaders/DepthTesting/DepthTesting/LinearizeDepth.fs");
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
     float cubeVertices[] = {
